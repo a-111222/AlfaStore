@@ -62,3 +62,11 @@ $('.load').fadeOut(200,function(){
 $('body').css("overflow","auto");
 });
 });
+
+
+
+video.addEventListener('loadedmetadata', function() {
+  videoDuration.textContent = secondsToTimeCode(video.duration);
+  videoCurrentTime.textContent = secondsToTimeCode(video.currentTime);
+  videoProgressBar.style.transform = `scaleX(${video.currentTime / video.duration})`;
+})
