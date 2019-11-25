@@ -1,0 +1,270 @@
+@media (max-width:576px) {
+
+    /*start nav */
+    .nav {
+        text-align: center;
+        padding-top: 8%;
+        animation-delay: 4s;
+    }
+.navBar,
+.two-dev{
+    background: #148bff;
+}
+    .nav-link {
+        display: block;
+    }
+
+    .kon {
+        text-align: center;
+        padding: 30px 0;
+    }
+    /* stsrt two-dev section*/
+    .two-dev section{
+        margin: unset;
+    }
+    .two-dev .row{
+        transform: translate(0%, 37%);
+    }
+    .two-dev .row .fi{
+        height: 205px;
+    }
+    .so{
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    .so h3{
+        font-size: 29px;
+    }
+    .so .sal{
+        padding: 7% 18%;
+    }
+/*start kards*/
+.kards section{
+    display: block;
+    padding: 20% 0% 0% 0%;
+}
+.kards section .card{
+    width: 100%!important;
+    margin-bottom: 20%;
+    padding: 0;
+}
+/*strat vid*/
+.vido h2{
+    letter-spacing: 2px;
+    white-space: pre-line;
+    width: 100%;
+}
+/*start over*/
+.kar{
+    padding: 0;
+}
+.over .button::before{
+    font-size: 14px;
+
+}
+.kar .car{
+    display: flex;
+}
+.over .button{
+    height: 49px;
+}
+
+/*start footer*/
+footer .scoo{
+
+    padding-top: 17%;
+
+  }
+}
+
+
+
+@media (min-width:577px) and (max-width:768px) {
+    /*start nav */
+
+    .nav {
+        text-align: center;
+        padding-top: 8%;
+        animation-delay: 4s;
+    }
+    .navBar,
+    .two-dev{
+        background: #148bff;
+    }
+    .nav-link {
+        display: block;
+    }
+
+    .kon {
+        text-align: center;
+        padding: 30px 0;
+    }
+    /*start two devs*/
+    .two-dev{
+        background: #148bff;
+
+    }
+    .two-dev .row{
+        transform: translate(0%, 37%);
+    }
+    .two-dev .row .fi{
+        height: 200px;
+    }
+    .so h3{
+        font-size: 32px;
+    }
+   /*start kards*/
+.kards section{
+    display: block;
+    padding: 20% 0% 0% 0%;
+}
+.kards section .card{
+    width: 100%!important;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 10%;
+} 
+/*strat vid*/
+.vido h2{
+    letter-spacing: 2px;
+    white-space: pre-line;
+    width: 100%;
+}
+/*start over*/
+.kar{
+    padding: 0;
+}
+.over .button{
+    padding: 0;
+}
+.over .button::before{
+    padding: 15px;
+
+}
+.over .button::after{
+    margin-top: 25%;
+
+}
+/*start last-cards*/
+.doubt .card-group>.card{
+    flex: none;
+    border: none;
+}
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+    /*start nav */
+
+    .Icon {
+        display: none;
+    }
+
+    .nav,
+    .kon {
+        display: block !important;
+    }
+
+    .nav-link {
+        display: inline-block;
+        float: left;
+        width: unset;
+    }
+       /*start kards*/
+.kards section{
+    display: inline-block;
+    padding: 20% 0% 0% 0%;
+}
+.kards .card:nth-of-type(1){
+    margin: auto;
+    padding: 0;
+}
+.kards .card:nth-of-type(2){
+    float: right;
+    padding: 0; 
+    margin-top: 5%;
+
+}
+.kards .card:nth-of-type(3){
+    float: left;
+    padding: 0; 
+    margin-top: 5%;
+
+}
+/*strat vid*/
+.vido h2{
+    font-size: 53px;
+    letter-spacing: 7px;
+    white-space: pre-line;
+    width: 100%;
+}
+/*start kar*/
+.car{
+    margin: 0 9%;
+}
+.kar{
+    margin: 0;
+    padding: 0;
+}
+.over .button{
+    padding: 0; 
+}
+.over .button::before {
+    margin-top: 10%;
+}
+.over .button::after {
+    margin-top: 40%;
+}
+/*start last-cards*/
+.doubt .card-group>.card{
+    flex: none;
+    border: none;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:992px) {
+    /*start nav */
+
+    .Icon {
+        display: none;
+    }
+
+    .kon {
+        text-align: right;
+    }
+    .vido h2{
+ 
+        letter-spacing: 4px;
+        
+    }
+    /*start kar*/
+    .kar .over{
+        top: 213px;
+    }
+    .kar {
+        padding: 50px 50px;
+    }
+    .over .button::after {
+        margin-top: 41%;
+    }
+    .over .button::before {
+        margin-top: 16px;
+    } 
+    .over .button{
+        padding: 0; 
+    }
+    .kar .car:hover .over{
+        top: 2%;
+        transition: all .5s ease-in-out;
+    }
+    .over p {
+        padding-top: 15%;
+    }
+    /*start last-cards*/
+.doubt .card-group>.card{
+    flex: none;
+    border: none;
+    margin: 0 auto;
+}
+}
