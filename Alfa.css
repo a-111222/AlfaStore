@@ -778,3 +778,8 @@ footer input::placeholder {
       transform: scale(1.0); 
     } 
   }
+
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
