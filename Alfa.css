@@ -5,8 +5,9 @@
     margin: 0;
     padding: 0;
 }
-video::-webkit-media-controls-panel-container {
-  display: none !important;
+
+.IIV::-webkit-media-controls-start-playback-button {
+    display:none;
 }
 body{
     overflow-x: hidden!important;
