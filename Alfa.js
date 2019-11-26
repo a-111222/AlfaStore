@@ -63,4 +63,4 @@ $('body').css("overflow","auto");
 });
 });
 
-
+document.getElementById("myVid").controls = false;
