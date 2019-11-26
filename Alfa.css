@@ -35,6 +35,9 @@ body{
     position: fixed;
 
 }
+video::-webkit-media-controls {
+    display:none !important;
+}
  .color{
     background: #365c9a !important;
 }
