@@ -9,6 +9,7 @@
 .IIV::-webkit-media-controls-start-playback-button {
     display:none;
 }
+video::-webkit-media-controls { display:none !important; } .video-js video::-webkit-media-controls-panel { display: none!important; -webkit-appearance: none; } .video-js video::--webkit-media-controls-play-button { display: none!important; -webkit-appearance: none; } .video-js video::-webkit-media-controls-start-playback-button { display: none!important; -webkit-appearance: none; } 
 body{
     overflow-x: hidden!important;
     font-family: 'Oxygen', sans-serif!important;
