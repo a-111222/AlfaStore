@@ -64,4 +64,3 @@ $('body').css("overflow","auto");
 });
 
 
- document.getElementById('mobilevideo').play();
