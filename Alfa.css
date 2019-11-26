@@ -5,6 +5,12 @@
     margin: 0;
     padding: 0;
 }
+ video::-webkit-media-controls-overlay-play-button {
+      display: none;
+    }
+video::-webkit-media-controls {
+    opacity: 0;
+}
 video .custom-video-controls {
   z-index: 2147483647;
 }
