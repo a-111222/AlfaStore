@@ -8,6 +8,9 @@
 video .custom-video-controls {
   z-index: 2147483647;
 }
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
 body{
     overflow-x: hidden!important;
     font-family: 'Oxygen', sans-serif!important;
