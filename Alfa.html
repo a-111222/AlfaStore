@@ -111,15 +111,14 @@
     <!--strat video-->
     <div class="vido">
 
-       <!--
-<video loop autoplay muted>
-            <source src="img/adidas.webm" type="video/mp4">
+     
+<video loop autoplay muted  onLoad="play()" preload="auto"  autoplay preload muted playsinline webkit-playsinline safari-playsinline>
+            <source src="img/bk.mp4" type="video/mp4" >
+            <source src="img/bk.webm" type="video/webm" >
         </video>
-       --> 
 
-        <video playsinline  loop autoplay muted>
-          <source src="img/adidas.mp4" type="video/mp4">
-        </video>
+
+   
         <div class="ove-lay"></div>
 
         <h2> become a member of our raffle prizes</h2>
@@ -357,7 +356,7 @@
     <script>
         new WOW().init();
     </script>
-    <script src="vue.min.js"></script>
+   
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
