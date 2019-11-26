@@ -5,22 +5,7 @@
     margin: 0;
     padding: 0;
 }
-*::-webkit-media-controls-start-playback-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-video button{display:none;
-    }
- video::-webkit-media-controls-overlay-play-button {
-      display: none;
-    }
-video::-webkit-media-controls {
-    opacity: 0;
-}
-video .custom-video-controls {
-  z-index: 2147483647;
-}
-video::-webkit-media-controls-start-playback-button {
+video::-webkit-media-controls-panel-container {
   display: none !important;
 }
 body{
