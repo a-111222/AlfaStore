@@ -62,3 +62,6 @@ $('.load').fadeOut(200,function(){
 $('body').css("overflow","auto");
 });
 });
+
+
+ document.getElementById('mobilevideo').play();
